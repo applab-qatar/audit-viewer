@@ -1,0 +1,42 @@
+{
+  "name": "seinoxygen/audit-viewer",
+  "version": "v1.0.0",
+  "description": "A simple audit viewer viewer for the package owen-it/laravel-auditing.",
+  "keywords": [
+    "laravel",
+    "audit",
+    "viewer"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pablo Cornehl",
+      "email": "seinoxygen@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "seinoxygen@hotmail.com"
+  },
+  "require": {
+    "php": "^7.1|^8.0",
+    "laravel/framework": "^7.0|^8.0|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SeinOxygen\\AuditViewer\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SeinOxygen\\AuditViewer\\AuditViewerServiceProvider"
+      ],
+      "aliases": {
+        "AuditViewer": "SeinOxygen\\AuditViewer\\Facades\\AuditViewer"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

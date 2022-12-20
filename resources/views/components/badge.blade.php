@@ -1,0 +1,1 @@
+<span class="badge {{$background}}">@lang('audit-viewer::audit.'.$event)</span>
