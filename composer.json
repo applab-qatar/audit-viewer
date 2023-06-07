@@ -1,6 +1,5 @@
 {
   "name": "seinoxygen/audit-viewer",
-  "version": "v1.0.1",
   "description": "A simple audit viewer viewer for the package owen-it/laravel-auditing.",
   "keywords": [
     "laravel",
